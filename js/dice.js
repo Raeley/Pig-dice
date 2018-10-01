@@ -1,3 +1,4 @@
+
 let scores, roundScore, activePlayer, gamePlaying;
 
 initGame();
