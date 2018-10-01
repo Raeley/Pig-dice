@@ -1,7 +1,6 @@
 let scores, roundScore, activePlayer, gamePlaying;
 
 initGame();
-
 document.querySelector('.btn-roll').addEventListener('click', function() {
   if (gamePlaying) {
     // 1. Random number
@@ -10,7 +9,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     // 2. Display result
     let diceDOM = document.querySelector('.dice');
     diceDOM.style.display = 'block';
-    // diceDOM.src = './src/img/dice-' + dice + '.png';
+    diceDOM.src = './src/img/dice-' + dice + '.png';
 
     // 3. Update round score IF rolled number is not 1
     if (dice !== 1) {
@@ -87,8 +86,7 @@ function nextPlayer() {
   document.getElementById('current-0').textContent = '0';
   document.getElementById('current-1').textContent = '0';
 
-  // document.querySelector('.player-0-panel').classList.toggle('active');
-  // document.querySelector('.player-1-panel').classList.toggle('active');
-
+  document.querySelector('.player-0-panel').classList.toggle('active');
+  document.querySelector('.player-1-panel').classList.toggle('active');
   document.querySelector('.dice').style.display = 'none';
 }
