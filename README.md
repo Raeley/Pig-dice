@@ -12,10 +12,11 @@ Incase of any bugs; Fork a repo Create a new branch (git checkout -b improve-fea
 Behaviour           |  Input         |Output
 --------------------|----------------|-----------
 Score of zero       |roll of 1       |0
-Score of 2,3,4,5,6  |                |
-respectively        |                |        
-                    |                |
-                    |                |
+Score of 2,3,4,5,6  |roll of 2,3,4,5 |
+respectively        |  6 respectively|
+                                            
+                                   
+                                    
 # Demo
 here is a link to a live working demo https://raeley.github.io/Pig-dice/
 # license
