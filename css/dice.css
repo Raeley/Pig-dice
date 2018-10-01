@@ -1,5 +1,4 @@
 body{
-  /* background-image:url("https://i.pinimg.com/564x/cf/c7/85/cfc785f98bcb6187121261f634b5bf45.jpg"); */
   background-repeat: no-repeat;
 }
 .box{
@@ -67,7 +66,7 @@ marquee{
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 100;
-    margin-top: 20px;
+    margin-top: -12px;
     margin-bottom: 10px;
     position: relative;
 }
@@ -79,13 +78,11 @@ marquee{
     color: #EB4D4D;
     margin-bottom: 50px;
 }
-
-/* .active { background-color: #f7f7f7; } */
 .active .player-name { font-weight: 300; }
 
 .active .player-name::after {
     content: "\2022";
-    font-size: 47px;
+    font-size: 37px;
     position: absolute;
     color: #EB4D4D;
     top: 10px;
@@ -102,12 +99,12 @@ marquee{
     text-align: center;
 } */
 
-/* .player-current-label {
+.player-current-label {
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: -10px;
     font-size: 12px;
     color: #222;
-} */
+}
 
 .player-current-score {
     font-size: 20px;
@@ -136,7 +133,7 @@ button:focus {
     outline: none;
 }
 
-/* i {
+i {
     color: #EB4D4D;
     display: inline-block;
     margin-right: 15px;
@@ -145,20 +142,20 @@ button:focus {
     vertical-align: text-top;
     margin-top: -4px;
     transition: margin 0.3s;
-} */
+}
 
 .btn-new { top: 380px;}
 .btn-roll { top: 403px;}
 .btn-hold { top: 430px;}
 
-/* .dice {
+.dice {
     position: absolute;
-    left: 50%;
-    top: 178px;
+    left: 40%;
+    top: 400px;
     transform: translateX(-50%);
     height: 100px;
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
-} */
+}
 
 .winner { background-color: #f7f7f7; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
