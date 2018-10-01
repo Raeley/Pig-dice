@@ -12,7 +12,7 @@ Incase of any bugs; Fork a repo Create a new branch (git checkout -b improve-fea
 Behaviour           |  Input         |Output
 --------------------|----------------|-----------
 Score of zero       |roll of 1       |0
-Score of 2,3,4,5,6  |roll of 2,3,4,5 |
+Score of 2,3,4,5,6  |roll of 2,3,4,5 |2,3,4,5,6 respectively
 respectively        |  6 respectively|
                                             
                                    
