@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> c613f04325ff90a7fb3094bc06ba0f67dde4de8c
 let scores, roundScore, activePlayer, gamePlaying;
 
 initGame();
